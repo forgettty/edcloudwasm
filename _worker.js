@@ -1,10 +1,10 @@
 // 代码基本都抄的CM和AK大佬和天书大佬的项目，在此感谢各位大佬的无私奉献。
 import {connect} from 'cloudflare:sockets';
-const defaultUuid = ''; // 可在环境变量配置，变量名称为UUID，两个地方都不写为不验证uuid
-const defaultPassword = ''; // 可在环境变量配置，变量名称为PASSWORD，两个地方都不写为不验证密码
-const socks5AndHttpUser = ''; // 可在环境变量配置，变量名称为S5HTTPUSER，两个地方都不写为不验证密码
-const socks5AndHttpPass = ''; // 可在环境变量配置，变量名称为S5HTTPPASS，两个地方都不写为不验证密码
-const ssAeadPassword = ''; // 可在环境变量配置，变量名称为SSPASS
+const defaultUuid = 'd35c982c-63e9-4fca-b08f-90870bb33fbe'; // 可在环境变量配置，变量名称为UUID，两个地方都不写为不验证uuid
+const defaultPassword = 'ytmn'; // 可在环境变量配置，变量名称为PASSWORD，两个地方都不写为不验证密码
+const socks5AndHttpUser = 'ytmn'; // 可在环境变量配置，变量名称为S5HTTPUSER，两个地方都不写为不验证密码
+const socks5AndHttpPass = 'admin'; // 可在环境变量配置，变量名称为S5HTTPPASS，两个地方都不写为不验证密码
+const ssAeadPassword = '254613'; // 可在环境变量配置，变量名称为SSPASS
 // ---------------------------------------------------------------------------------
 // 理论最低带宽计算公式 (Theoretical Max Bandwidth Calculation):
 //    - 速度上限 (Mbps) = (bufferSize (字节) / flushTime (毫秒)) * 0.008
